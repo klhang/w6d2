@@ -1,0 +1,67 @@
+.ttt {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.grid {
+  list-style: none;
+}
+
+.ttt p {
+  display: block;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+.ttt li {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.x {
+  border: 5px solid black;
+  font-family: sans-serif;
+  background-color: white;
+  font-size: 80px;
+  text-align: center;
+}
+
+.o {
+  border: 5px solid black;
+  font-family: sans-serif;
+  background-color: white;
+  font-size: 80px;
+  text-align: center;
+}
+
+.winner {
+  border: 5px solid black;
+  font-family: sans-serif;
+  background-color: green;
+  font-size: 80px;
+  color: white;
+  text-align: center;
+}
+
+.loser {
+  border: 5px solid black;
+  font-family: sans-serif;
+  background-color: red;
+  font-size: 80px;
+  color: white;
+  text-align: center;
+}
+
+.square {
+  background-color: gray;
+  border: 5px solid black;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
